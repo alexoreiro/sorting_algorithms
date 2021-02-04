@@ -26,6 +26,8 @@ void selection_sort(int *array, size_t size);
 void quick_sort(int *array, size_t size);
 void print_array(const int *array, size_t size);
 void print_list(const listint_t *list);
+void swap_nodes(listint_t **list, listint_t *node_A, listint_t *node_B);
+
 
 
 #endif
